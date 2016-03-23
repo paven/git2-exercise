@@ -338,7 +338,7 @@ git push
 git checkout -b rebaseMe origin/rebaseMe
 git rebase master
 git checkout master
-git merge --ff-only
+git merge rebaseMe --ff-only
 git log --oneline --graph
 ```
 
