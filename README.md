@@ -224,7 +224,7 @@ git commit -m "another commit!"
 
 look at your log
 ```bash
-git log --oneline -graph
+git log --oneline --graph
 ```
 
 ### work on your branch
@@ -248,8 +248,8 @@ git log --oneline --graph
 ### view the difference between your branches
 
 ```bash
-git log --oneline -graph ^master ex4
-git log --oneline -graph ^ex4 master
+git log --oneline --graph ^master ex4
+git log --oneline --graph ^ex4 master
 ```
 
 ### rebase your branch
@@ -302,7 +302,7 @@ git merge ex5 --ff-only
 ```
 look at your log
 ```bash
-git log --oneline -graph
+git log --oneline --graph
 ```
 
 ## Excercise 6
